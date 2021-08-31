@@ -1,0 +1,36 @@
+div .message {
+  color: blue;
+  border-style: solid;
+  border-color: green;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+input{
+  box-shadow: 2px 2px darkslategrey;
+  margin-bottom: 10px;
+}
+
+div {
+  padding: 1px;
+}
+
+button {
+  box-shadow: 2px 2px lightgray;
+}
+
+button:active {
+  box-shadow: 1px 1px gray;
+  transform: translateX(2px) translateY(2px);
+}
+
+button.vote {
+  background-color: white;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-left: 5px;
+}
+
+button.vote:hover {
+  background-color: yellow;
+}
